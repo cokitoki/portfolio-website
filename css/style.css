@@ -319,6 +319,14 @@ span {
     margin: 2rem 0 3rem;
 }
 
+.hidden {
+    display: none;
+  }
+  
+.more-text {
+    color: inherit;
+}
+
 .services {
     min-height: auto;
     padding-bottom: 7rem;

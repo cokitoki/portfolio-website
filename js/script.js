@@ -38,6 +38,24 @@ navbar.classList.remove('active');
 
 };
 
+/*========= read more read less =========*/
+const readMoreBtns = document.querySelectorAll('.read-more');
+
+readMoreBtns.forEach(function(btn) {
+  btn.addEventListener('click', function(event) {
+    event.preventDefault();
+    const readMoreId = this.getAttribute('data-readmore-id');
+    const moreText = document.querySelector(`.more-text[data-readmore-id="${readMoreId}"]`);
+    moreText.classList.toggle('hidden');
+
+    if (moreText.classList.contains('hidden')) {
+      this.textContent = 'Read More';
+    } else {
+      this.textContent = 'Read Less';
+    }
+  });
+});
+
 /*========= swiper =========*/
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
