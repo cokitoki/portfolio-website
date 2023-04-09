@@ -1,318 +1,420 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Mateo Telleria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Mateo Telleria</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
 
-        <!-- swiper css -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
 
-        <!-- css -->
-        <link rel="stylesheet" href="css/style.css">
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">#LetsWrk</a>
 
-        <!-- box icons -->
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    </head>
-    <body>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
 
-        <header class="header">
-            <a href="#" class="logo">#LetsWrk</a>
+      <div class="bx bx-moon" id="darkMode-icon"></div>
 
-            <nav class="navbar">
-                <a href="#home" class="active">Home</a>
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#contact">Contact</a>
-            </nav>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
 
-            <div class="bx bx-moon" id="darkMode-icon"></div>
+    <!-- Home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, I am</h3>
+        <h1><span class="multiple-text"></span></h1>
+        <p>
+          I'm a computer engineering student at Politecnico di Torino. I'm a
+          passionate programmer and I love to create new things.
+        </p>
 
-            <div class="bx bx-menu" id="menu-icon"></div>
-        </header>       
-        
-        <!-- Home section design -->
-        <section class="home" id="home">
-            <div class="home-content">
-                <h3>Hello, I am</h3>
-                <h1>Mateo Telleria</h1>
-                <p>
-                    I'm a computer Engineering student at Politecnico di Torino.
-                    I'm a passionate programmer and I love to create new things.
-                </p>
-
-                <div class="social-media">
-                    <a href="https://www.facebook.com/mateo.telleriasanchez/" target="_blank"><i class='bx bxl-facebook' ></i></a>
-                    <a href="https://github.com/cokitoki" target="_blank"><i class='bx bxl-github'></i></a>
-                    <a href="https://www.instagram.com/mateotelleria1/" target="_blank"><i class='bx bxl-instagram' ></i></a>
-                    <a href="https://www.linkedin.com/in/mateo-telleria" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
-                </div>
-
-                <a href="payment enrolment.pdf" class="btn" download="MateoTelleriaCV">Download CV</a>
-            </div>
-
-            <div class="profession-container">
-                <div class="profession-box">
-                    <div class="profession" style="--i:0;">
-                        <i class='bx bx-code-alt' ></i>
-                        <h3>Web Developer</h3>
-                    </div>
-                    <div class="profession" style="--i:1;">
-                        <i class='bx bx-bug-alt'></i>
-                        <h3>Full-Stack</h3>
-                    </div>
-                    <div class="profession" style="--i:2;">
-                        <i class='bx bxl-postgresql' ></i>
-                        <h3>DB Designer</h3>
-                    </div>
-                    <div class="profession" style="--i:3;">
-                        <i class='bx bxl-android' ></i>
-                        <h3>App Developer</h3>
-                    </div>
-
-                    <div class="circle"></div>
-                </div>
-
-                <div class="overlay"></div>
-            </div>
-
-            <div class="home-img">
-                <img src="images/home.png" alt="">
-            </div>
-        </section>
-
-        <!-- About section design -->
-        <section class="about" id="about">
-            <div class="about-img">
-                <img src="images/about.png" alt="">
-            </div>
-
-            <div class="about-content">
-                <h2 class="heading">About <span>Me</span></h2>
-                <h3>Hi, I'm Here To Help On Your Next Project!</h3>
-                <p>
-                    Do you need a website for your business? Do you need a database for your project?
-                    Do you need a software for your company? Well you are in the right place! As well as my studies,
-                    I have been working on several projects on my leisure time, and I have gained a lot of experience
-                    by working on several projects both on my own and as a team. As an avid entrepreneur, I vow to
-                    provide the best service possible to my clients, at the most competetive price.
-                    I am a hard worker and I am always willing to learn new things and help new people!
-                    <span class="more-text hidden" data-readmore-id="1"> <br><br>
-                        My name is Mateo Telleria, I'm Bolivian with dual nationality from Argentina, I'm 21 years old
-                        and I'm an international student. I first started my studies in Bolivia, where I was majoring in
-                        information systems, but then I transfered to Italy, where I am currently studying and freelancing.
-                        In the future I wish to focus myself in backend and Full-Stack development. Eventually I wish to
-                        pursue a masters in data science and work in a fullfilling company that shares my values and goals.
-                        My principles are KISS, YAGNI, DRY. If you have any questions or inquiries, feel free to contact me!
-                        I hope we can collaborate soon!
-                    </span>
-                </p>
-                <a href="#" class="read-more btn" data-readmore-id="1">Read More</a>
-            </div>
-        </section>
-
-        <!-- Services section design -->
-        <section class="services" id="services">
-            <h2 class="heading">My <span>Services</span></h2>
-            
-            <div class="services-container">
-                <div class="services-box">
-                    <i class='bx bxl-css3' ></i>
-                    <h3>Web Development</h3>
-                    <p>
-                        As a junior web developer, from designing to developing, I can help you with either your
-                        personal or business website. Whether that be a simple landing page for your portfolio website,
-                        or a full-fledged e-commerce website, be assured that my priorities will always be you.
-                        <span class="more-text hidden" data-readmore-id="2"> <br><br>
-                            My set of skills consist of HTML5, CSS, JavaScript, PHP, and SQL. I also have some experience
-                            with frameworks such as Bootstrap and React. If your team needs other skills, I'm more than eager
-                            to learn and adapt to your needs.
-                        </span>
-                    </p>
-                    <a href="#" class="read-more btn" data-readmore-id="2">Read More</a>
-                </div>
-                <div class="services-box">
-                    <i class='bx bxs-data'></i>
-                    <h3>DataBase Design</h3>
-                    <p>
-                        I have been working on several projects for university that required a database, every business
-                        requires a database, if you find yourself in need of a relational database, I can work with multiple
-                        database management systems, such as MySQL and PostgreSQL.
-                        <span class="more-text hidden" data-readmore-id="3"> <br><br>
-                            I'm familiar with REST APIs, Json, and XML. I can manage DB systems as well as design them
-                            (ER diagrams and normalization of these) based on user requirments and program specifications.
-                        </span>
-                    </p>
-                    <a href="#" class="read-more btn" data-readmore-id="3">Read More</a>
-                </div>
-                <div class="services-box">
-                    <i class='bx bxl-visual-studio'></i>
-                    <h3>Software Developer</h3>
-                    <p>
-                        If you ever come across a software problem, then know that it's no problem for me! Whether
-                        you need help on certain lines of code, or you need an app built from scratch, do not fret.
-                        I am fluent in Python, Java, C, and C++. I can also work with multiple frameworks and IDEs.
-                        <span class="more-text hidden" data-readmore-id="4"> <br><br>
-                            For team collaboration, I use Git and GitHub. I've also work with multiple IDEs, my main
-                            ones being Visual Studio Code followed by JetBrains' IDEs. I'm very familiar with the AGILE
-                            methodology.
-                        </span>
-                    </p>
-                    <a href="#" class="read-more btn" data-readmore-id="4">Read More</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Portfolio section design -->
-        <section class="portfolio" id="portfolio">
-            <h2 class="heading">Latest <span>Projects</span></h2>
-
-            <div class="portfolio-container">
-                <div class="portfolio-box">
-                    <img src="images/portfolio1.jpg" alt="">
-
-                    <div class="portfolio-layer">
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius blandit turpis, 
-                            eu ullamcorper ex egestas gravida. Curabitur vel feugiat orci. Duis iaculis, erat eu lacinia porttitor, 
-                            nibh sem convallis felis, eget interdum dolor turpis sed eros.</p>
-                        <a href="https://youtu.be/dQw4w9WgXcQ"><i class='bx bx-link-external '></i></a>
-                    </div>
-                </div>
-                <div class="portfolio-box">
-                    <img src="images/portfolio2.jpg" alt="">
-
-                    <div class="portfolio-layer">
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius blandit turpis, 
-                            eu ullamcorper ex egestas gravida. Curabitur vel feugiat orci. Duis iaculis, erat eu lacinia porttitor, 
-                            nibh sem convallis felis, eget interdum dolor turpis sed eros.</p>
-                        <a href="https://youtu.be/dQw4w9WgXcQ"><i class='bx bx-link-external '></i></a>
-                    </div>
-                </div>
-                <div class="portfolio-box">
-                    <img src="images/portfolio3.jpg" alt="">
-
-                    <div class="portfolio-layer">
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius blandit turpis, 
-                            eu ullamcorper ex egestas gravida. Curabitur vel feugiat orci. Duis iaculis, erat eu lacinia porttitor, 
-                            nibh sem convallis felis, eget interdum dolor turpis sed eros.</p>
-                        <a href="https://youtu.be/dQw4w9WgXcQ"><i class='bx bx-link-external '></i></a>
-                    </div>
-                </div>
-                <div class="portfolio-box">
-                    <img src="images/portfolio4.jpg" alt="">
-
-                    <div class="portfolio-layer">
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius blandit turpis, 
-                            eu ullamcorper ex egestas gravida. Curabitur vel feugiat orci. Duis iaculis, erat eu lacinia porttitor, 
-                            nibh sem convallis felis, eget interdum dolor turpis sed eros.</p>
-                        <a href="https://youtu.be/dQw4w9WgXcQ"><i class='bx bx-link-external '></i></a>
-                    </div>
-                </div>
-                <div class="portfolio-box">
-                    <img src="images/portfolio5.jpg" alt="">
-
-                    <div class="portfolio-layer">
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius blandit turpis, 
-                            eu ullamcorper ex egestas gravida. Curabitur vel feugiat orci. Duis iaculis, erat eu lacinia porttitor, 
-                            nibh sem convallis felis, eget interdum dolor turpis sed eros.</p>
-                        <a href="https://youtu.be/dQw4w9WgXcQ"><i class='bx bx-link-external '></i></a>
-                    </div>
-                </div>
-                <div class="portfolio-box">
-                    <img src="images/portfolio6.jpg" alt="">
-
-                    <div class="portfolio-layer">
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius blandit turpis, 
-                            eu ullamcorper ex egestas gravida. Curabitur vel feugiat orci. Duis iaculis, erat eu lacinia porttitor, 
-                            nibh sem convallis felis, eget interdum dolor turpis sed eros.</p>
-                        <a href="https://youtu.be/dQw4w9WgXcQ"><i class='bx bx-link-external '></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- testimonial design -->
-        <div class="testimonial-container">
-            <h2 class="heading">Valuable <span>Testimonial</span></h2>
-            
-            <div class="testimonial-wrapper">
-                <div class="testimonial-box mySwiper">
-                    <div class="testimonial-content swiper-wrapper">
-                        <div class="testimonial-slide swiper-slide">
-                            <img src="images/testimonial1.jpg" alt="">
-                            <h3>Elisabeth Grey</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius blandit turpis, 
-                                eu ullamcorper ex egestas gravida. Curabitur vel feugiat orci. Duis iaculis, erat eu lacinia porttitor, 
-                                nibh sem convallis felis, eget interdum dolor turpis sed eros.</p>
-                        </div>
-                        <div class="testimonial-slide swiper-slide">
-                            <img src="images/testimonial2.jpg" alt="">
-                            <h3>Larry Wheels</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius blandit turpis, 
-                                eu ullamcorper ex egestas gravida. Curabitur vel feugiat orci. Duis iaculis, erat eu lacinia porttitor, 
-                                nibh sem convallis felis, eget interdum dolor turpis sed eros.</p>
-                        </div>
-                        <div class="testimonial-slide swiper-slide">
-                            <img src="images/testimonial3.jpg" alt="">
-                            <h3>Samantha Smith</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius blandit turpis, 
-                                eu ullamcorper ex egestas gravida. Curabitur vel feugiat orci. Duis iaculis, erat eu lacinia porttitor, 
-                                nibh sem convallis felis, eget interdum dolor turpis sed eros.</p>
-                        </div>
-                    </div>
-
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
+        <div class="social-media">
+          <a
+            href="https://www.facebook.com/mateo.telleriasanchez/"
+            target="_blank"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://github.com/cokitoki" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.instagram.com/mateotelleria1/" target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/mateo-telleria" target="_blank"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
         </div>
 
-        <!-- contact section design -->
-        <section class="contact" id="contact">
-            <h2 class="heading">Contact <span>Me!</span></h2>
+        <a href="payment enrolment.pdf" class="btn" download="MateoTelleriaCV"
+          >Download CV</a
+        >
+      </div>
 
-            <form action="https://formspree.io/f/mqkogzbg" method="POST">
-                <div class="input-box">
-                    <input type="text" name="Name" placeholder="Full Name (optional)">
-                    <input type="email" name="Email" placeholder="Email Address*" required>
-                </div>
-                <div class="input-box">
-                    <input type="number" name="Phone" placeholder="Phone Number (optional)">
-                    <input type="text" name="Subject" placeholder="Email Subject*" required>
-                </div>
-                <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-                <input type="submit" value="Send Message" class="btn">
-            </form>
-        </section>
+      <div class="profession-container">
+        <div class="profession-box">
+          <div class="profession" style="--i: 0">
+            <i class="bx bx-code-alt"></i>
+            <h3>Web Developer</h3>
+          </div>
+          <div class="profession" style="--i: 1">
+            <i class="bx bx-bug-alt"></i>
+            <h3>Full-Stack</h3>
+          </div>
+          <div class="profession" style="--i: 2">
+            <i class="bx bxl-postgresql"></i>
+            <h3>DB Designer</h3>
+          </div>
+          <div class="profession" style="--i: 3">
+            <i class="bx bxl-android"></i>
+            <h3>App Developer</h3>
+          </div>
 
-        <!-- footer section design -->
-        <footer class="footer">
-            <div class="footer-text">
-                <p>Copyright &copy; 2023 by TelleInc. | All Rights Reserved.</p>
+          <div class="circle"></div>
+        </div>
+
+        <div class="overlay"></div>
+      </div>
+
+      <div class="home-img">
+        <img src="images/home.png" alt="" />
+      </div>
+    </section>
+
+    <!-- About section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/about.png" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Hi, I'm Here To Help On Your Next Project!</h3>
+        <p>
+          Do you need a website for your business? Do you need a database for
+          your project? Do you need a software for your company? Well you are in
+          the right place! As well as my studies, I have been working on several
+          projects on my leisure time, and I have gained a lot of experience by
+          working on several projects both on my own and as a team. As an avid
+          entrepreneur, I vow to provide the best service possible to my
+          clients, at the most competetive price. I am a hard worker and I am
+          always willing to learn new things and help new people!
+          <span class="more-text hidden" data-readmore-id="1">
+            <br /><br />
+            My name is Mateo Telleria, I'm Bolivian with dual nationality from
+            Argentina, I'm 21 years old and I'm an international student. I
+            first started my studies in Bolivia, where I was majoring in
+            information systems, but then I transfered to Italy, where I am
+            currently studying and freelancing. In the future I wish to focus
+            myself in backend and Full-Stack development. Eventually I wish to
+            pursue a masters in data science and work in a fullfilling company
+            that shares my values and goals. My principles are KISS, YAGNI, DRY.
+            If you have any questions or inquiries, feel free to contact me! I
+            hope we can collaborate soon!
+          </span>
+        </p>
+        <a href="#" class="read-more btn" data-readmore-id="1">Read More</a>
+      </div>
+    </section>
+
+    <!-- Services section design -->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bxl-css3"></i>
+          <h3>Web Development</h3>
+          <p>
+            As a junior web developer, from designing to developing, I can help
+            you with either your personal or business website. Whether that be a
+            simple landing page for your portfolio website, or a full-fledged
+            e-commerce website, be assured that my priority will always be you.
+            <span class="more-text hidden" data-readmore-id="2">
+              <br /><br />
+              My set of skills consist of HTML5, CSS, JavaScript, PHP, and SQL.
+              I also have some experience with frameworks such as Bootstrap and
+              React. If your team needs other skills, I'm more than eager to
+              learn and adapt to your needs.
+            </span>
+          </p>
+          <a href="#" class="read-more btn" data-readmore-id="2">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bxs-data"></i>
+          <h3>DataBase Design</h3>
+          <p>
+            I have been working on several projects for university that required
+            a database, every business requires a database, if you find yourself
+            in need of a relational database, I can work with multiple database
+            management systems, such as MySQL and PostgreSQL.
+            <span class="more-text hidden" data-readmore-id="3">
+              <br /><br />
+              I'm familiar with REST APIs, Json, and XML. I can manage DB
+              systems as well as design them (ER diagrams and normalization of
+              these) based on user requirments and program specifications.
+            </span>
+          </p>
+          <a href="#" class="read-more btn" data-readmore-id="3">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bxl-visual-studio"></i>
+          <h3>Software Developer</h3>
+          <p>
+            If you ever come across a software problem, then know that it's no
+            problem for me! Whether you need help on certain lines of code, or
+            you need an app built from scratch, do not fret. I am fluent in
+            Python, Java, C, and C++. I can also work with multiple frameworks
+            and IDEs.
+            <span class="more-text hidden" data-readmore-id="4">
+              <br /><br />
+              For team collaboration, I use Git and GitHub. I've also work with
+              multiple IDEs, my main ones being Visual Studio Code followed by
+              JetBrains' IDEs. I'm very familiar with the AGILE methodology.
+            </span>
+          </p>
+          <a href="#" class="read-more btn" data-readmore-id="4">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio section design -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/portfolio1.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum varius blandit turpis, eu ullamcorper ex egestas
+              gravida. Curabitur vel feugiat orci. Duis iaculis, erat eu lacinia
+              porttitor, nibh sem convallis felis, eget interdum dolor turpis
+              sed eros.
+            </p>
+            <a href="https://youtu.be/dQw4w9WgXcQ"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio2.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum varius blandit turpis, eu ullamcorper ex egestas
+              gravida. Curabitur vel feugiat orci. Duis iaculis, erat eu lacinia
+              porttitor, nibh sem convallis felis, eget interdum dolor turpis
+              sed eros.
+            </p>
+            <a href="https://youtu.be/dQw4w9WgXcQ"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio3.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum varius blandit turpis, eu ullamcorper ex egestas
+              gravida. Curabitur vel feugiat orci. Duis iaculis, erat eu lacinia
+              porttitor, nibh sem convallis felis, eget interdum dolor turpis
+              sed eros.
+            </p>
+            <a href="https://youtu.be/dQw4w9WgXcQ"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio4.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum varius blandit turpis, eu ullamcorper ex egestas
+              gravida. Curabitur vel feugiat orci. Duis iaculis, erat eu lacinia
+              porttitor, nibh sem convallis felis, eget interdum dolor turpis
+              sed eros.
+            </p>
+            <a href="https://youtu.be/dQw4w9WgXcQ"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio5.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum varius blandit turpis, eu ullamcorper ex egestas
+              gravida. Curabitur vel feugiat orci. Duis iaculis, erat eu lacinia
+              porttitor, nibh sem convallis felis, eget interdum dolor turpis
+              sed eros.
+            </p>
+            <a href="https://youtu.be/dQw4w9WgXcQ"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio6.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum varius blandit turpis, eu ullamcorper ex egestas
+              gravida. Curabitur vel feugiat orci. Duis iaculis, erat eu lacinia
+              porttitor, nibh sem convallis felis, eget interdum dolor turpis
+              sed eros.
+            </p>
+            <a href="https://youtu.be/dQw4w9WgXcQ"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonial design -->
+    <div class="testimonial-container">
+      <h2 class="heading">Valuable <span>Testimonial</span></h2>
+
+      <div class="testimonial-wrapper">
+        <div class="testimonial-box mySwiper">
+          <div class="testimonial-content swiper-wrapper">
+            <div class="testimonial-slide swiper-slide">
+              <img src="images/testimonial1.jpg" alt="" />
+              <h3>Elisabeth Grey</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum varius blandit turpis, eu ullamcorper ex egestas
+                gravida. Curabitur vel feugiat orci. Duis iaculis, erat eu
+                lacinia porttitor, nibh sem convallis felis, eget interdum dolor
+                turpis sed eros.
+              </p>
             </div>
-
-            <div class="footer-iconTop">
-                <a href="#home"><i class='bx bxs-up-arrow-circle'></i></a>
+            <div class="testimonial-slide swiper-slide">
+              <img src="images/testimonial2.jpg" alt="" />
+              <h3>Larry Wheels</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum varius blandit turpis, eu ullamcorper ex egestas
+                gravida. Curabitur vel feugiat orci. Duis iaculis, erat eu
+                lacinia porttitor, nibh sem convallis felis, eget interdum dolor
+                turpis sed eros.
+              </p>
             </div>
-        </footer>
+            <div class="testimonial-slide swiper-slide">
+              <img src="images/testimonial3.jpg" alt="" />
+              <h3>Samantha Smith</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum varius blandit turpis, eu ullamcorper ex egestas
+                gravida. Curabitur vel feugiat orci. Duis iaculis, erat eu
+                lacinia porttitor, nibh sem convallis felis, eget interdum dolor
+                turpis sed eros.
+              </p>
+            </div>
+          </div>
 
-        <!-- swiper js-->
-        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-        
-        <!-- scroll reveal -->
-        <script src="https://unpkg.com/scrollreveal"></script>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
 
-        <!-- custom js -->
-        <script src="js/script.js"></script>
-    </body>
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form action="https://formspree.io/f/mqkogzbg" method="POST">
+        <div class="input-box">
+          <input type="text" name="Name" placeholder="Full Name (optional)" />
+          <input
+            type="email"
+            name="Email"
+            placeholder="Email Address*"
+            required
+          />
+        </div>
+        <div class="input-box">
+          <input
+            type="number"
+            name="Phone"
+            placeholder="Phone Number (optional)"
+          />
+          <input
+            type="text"
+            name="Subject"
+            placeholder="Email Subject*"
+            required
+          />
+        </div>
+        <textarea
+          name="Message"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- footer section design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by TelleInc. | All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bxs-up-arrow-circle"></i></a>
+      </div>
+    </footer>
+
+    <!-- typed.js -->
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+    <!-- swiper js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
 </html>
