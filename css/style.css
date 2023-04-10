@@ -395,6 +395,11 @@ span {
   margin-bottom: 4rem;
 }
 
+.portfolio h3 {
+  text-align: center;
+  margin: 3rem;
+}
+
 .portfolio .portfolio-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
