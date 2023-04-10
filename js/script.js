@@ -100,7 +100,7 @@ ScrollReveal({
   delay: 200,
 });
 
-ScrollReveal().reveal(".home-content, .heading", { origin: "top" });
+ScrollReveal().reveal(".home-content, .heading, .portfolio h3", { origin: "top" });
 ScrollReveal().reveal(
   ".home-img img .services-container, .portfolio-box, .testimonial-wrapper, contact form",
   { origin: "bottom" }
