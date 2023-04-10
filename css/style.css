@@ -276,7 +276,7 @@ section {
   height: 0;
   border-top: 384px solid var(--main-color);
   border-right: 384px solid var(--main-color);
-  border-bottom: 384px solid var(--main-color);
+  border-bottom: 374px solid var(--main-color);
   border-left: 384px solid transparent;
 }
 
@@ -285,7 +285,7 @@ section {
   bottom: 0;
   right: 0;
   pointer-events: none;
-  width: 51.5%;
+  width: 50.5%;
 }
 
 span {
@@ -622,7 +622,7 @@ span {
   }
 
   .home .profession-container {
-    height: 85.8rem;
+    height: 85rem;
   }
 
   .home .profession-container .profession-box {
